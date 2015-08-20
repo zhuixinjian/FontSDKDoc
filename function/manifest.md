@@ -1,7 +1,8 @@
 # 配置manifest
 
 添加下列权限到项目Mainfest文件
-```
+
+```xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
