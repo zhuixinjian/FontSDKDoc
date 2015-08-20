@@ -1,0 +1,22 @@
+# Summary
+
+* [介绍](README.md)
+* [集成准备](selection/README.md)
+   * [获取AppKey](selection/auth_key.md)
+   * [下载SDK](selection/sdk.md)
+   * [导入SDK(Eclipse)](selection/sdkeclipse.md)
+   * [导入SDK(Android Studio)](selection/sdkandroid_studio.md)
+* [功能集成](function/README.md)
+   * [配置manifest](function/manifest.md)
+   * [初始化](function/init.md)
+   * [基本功能](function/getcate.md)
+       * [字体列表功能](function/stage.md)
+       * [主题包功能](function/ss.md)
+       * [云字体功能](function/sd.md)
+   * [字体下载](function/downloadfont.md)
+   * [字体管家支持功能](function/about_fontmanager.md)
+* [发布](publis/README.md)
+   * [混淆](publis/aadsd.md)
+* [附录](other/README.md)
+   * [Font字段解释](other/font_params.md)
+
