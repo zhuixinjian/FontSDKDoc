@@ -22,3 +22,4 @@
     //onDestroy中调用
     FontCenter.getInstance().recovery();
     ```
+
