@@ -6,7 +6,7 @@
 | fontSize | 字体大小 | Long |
 | isHotFont | 是否是最热字体 | Boolean |
 | isNewFont | 是否是最新字体 | Boolean |
-| jumpType | 下载方式(1、直接下载 2、跳转谷歌市场下载) | Int |
+| jumpType | 下载方式(0和1为直接下载 ；2为跳转谷歌市场下载) | Int |
 | fontDownloadUrl | 字体下载地址 | String |
 | fontPreviewUrl | 字体预览文件地址 | String |
 | packageName | 字体包名(只有该字体在海外市场时才有) | String |
@@ -17,3 +17,6 @@
 | zhLocalPath | 中文字体本地路径 | String |
 | enLocalPath | 英文字体本地路径 | String |
 | thumbnailLocalPath | 预览文件本地路径 | String |
+| fontSdkSupport | 支持类型（2为支持云字体，其它为不支持云字体）  | int |
+
+
