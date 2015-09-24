@@ -1,8 +1,8 @@
-# 主题包功能
+# 字体包功能
 1. 初始化
 
+    AndroidManifest.xml中添加
     ```xml
-    <!-- manifest中添加 -->
     <application ...>
         <!-- FontPack换字体 12345替换为appkey -->
         <receiver android:name="com.xinmei365.fontsdk.receiver.FontPackChangeFontBroadcasrReceiver" >
@@ -11,9 +11,8 @@
             </intent-filter>
         </receiver>
     </application>```
-
+    项目Application onCreate或入口Activity onCreate方法中初始化
     ```ruby
-    // 项目Application onCreate或入口Activity onCreate方法中初始化
 	FontCenter.getInstance().setFontPackChangeFontCallBack(
 	    new FontPackChangeFontCallBack() {
 			@Override
