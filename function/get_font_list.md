@@ -1,4 +1,4 @@
-# 字体列表功能
+# 获取字体列表
 [country_code]: /other/country_code.html
 1. 获取分类列表
     1. 分类中包含字体

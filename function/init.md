@@ -6,13 +6,12 @@
     FontCenter.initFontCenter(application, app_key);
     ```
 
-3. 在程序的入口activity中的
+2. (必须)在程序的入口activity中的onCreate方法中调用
 
     ```php
-    //onCreate方法中调用
     FontCenter.getInstance().init();
     ```
-2. (可选)设置自定义下载目录，默认路径: /sdcard/yiziyun，缓存路径: /sdcard/yiziyun/cache
+3. (可选)设置自定义下载目录，默认路径: /sdcard/yiziyun，缓存路径: /sdcard/yiziyun/cache
 
     ```ruby
     FontCenter.getInstance().setFolder_font(String path)

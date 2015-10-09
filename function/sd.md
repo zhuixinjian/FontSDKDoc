@@ -1,4 +1,5 @@
 # 云字体功能
+**注意：Font中fontSdkSupport属性为1是支持云字体**
 1. 手动获取云字体
     ```ruby
     FontCenter.getInstance().getTypeface(Font font,String text,CloudFontCallBack callBack);
