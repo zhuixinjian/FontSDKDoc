@@ -3,11 +3,11 @@
 [registurl]:http://sdkmerchant.zitiguanjia.com/site/signup
 [demojar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/v2.1/fontsdk-v2.1(jar+demo).zip
 [jar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/v2.1/fontsdk_2.1.jar
-[font_list]: /function/get_font_list.html
-[download_font]: /function/downloadfont.html
-[cloud_font]: /function/sd.html
-[font_pack]: /function/ss.html
-[use_font]: /function/use_font.html
+[font_list]: /fontsdk/function/get_font_list.html
+[download_font]: /fontsdk/function/downloadfont.html
+[cloud_font]: /fontsdk/function/sd.html
+[font_pack]: /fontsdk/function/ss.html
+[use_font]: /fontsdk/function/use_font.html
 
 1. 获取AppKey
 
