@@ -1,6 +1,6 @@
 # 获取AppKey
 
-[registurl]:http://sdkmerchant.zitiguanjia.com/site/signup
+[registurl]:http://www.zitiguanjia.com/signup
 
 1. [注册易字云][registurl]并登录后台管理界面
 3. 创建应用

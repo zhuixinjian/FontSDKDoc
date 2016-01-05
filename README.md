@@ -1,17 +1,32 @@
 # 易字云SDK开发手册
 
+## 当前版本2.1.2
+
 本手册只适用于易字云SDK最新版本
 
 易字云SDK主要用于为开发者提供字体资源，通过SDK的形式，实现开发者对字体的下载管理和使用等功能
 
 ## 下载SDK
 
-[易字云SDK v2.1(Demo+jar)][demojar_download]
+[易字云SDK (Demo+jar)][demojar_download]
 
-[易字云SDK v2.1(jar)][jar_download]
+[易字云SDK (jar)][jar_download]
 
 
 ## 更新日志
+
+###SDK V2.1.2：
+
+1. 更改初始化方式
+2. 优化缓存
+3. 优化统计
+4. 解决部分bug
+
+###SDK V2.1.1：
+
+1. 新增统计
+2. 解决6.0权限问题
+3. 优化下载
 
 ###SDK V2.1：
 
@@ -35,5 +50,5 @@ Callback：获取数据回调接口
 3. 根据字体信息删除字体文件 deleteFont(Font font)
 
 
-[demojar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/v2.1/fontsdk-v2.1(jar+demo).zip
-[jar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/v2.1/fontsdk_2.1.jar
+[demojar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/fontsdk(jar+demo).zip
+[jar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/fontsdk.jar

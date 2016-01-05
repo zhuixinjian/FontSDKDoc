@@ -1,9 +1,12 @@
 # 字体使用
 1. 创建Typeface
+
     1. 通过Font对象获取Typefaced对象，如果字体没下载，typeface为null
 
+    **只适用于下载到本地的字体，不适用于云字体**
+
     ```ruby
-    Typeface typeface=Font.getTypeface();
+    Typeface typeface=font.getTypeface();
     ```
 
     2. 通过文件路径获取Typeface对象

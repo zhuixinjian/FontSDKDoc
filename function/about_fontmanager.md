@@ -17,10 +17,10 @@
      * 1 : 字体管家已安装, 不支持支持单应用换字体功能
      * 2 : 字体管家未安装
      */
-    FontCenter.getInstance().checkFontManager();
+    FontCenter.getInstance(Context context).checkFontManager();
     ```
 
 3. 下载字体管家
     ```ruby
-    FontCenter.getInstance().downloadFontmanager(FileDownloadCallBack callback)
+    FontCenter.getInstance(Context context).downloadFontmanager(FileDownloadCallBack callback)
     ```

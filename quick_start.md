@@ -1,8 +1,8 @@
 # 快速开始
 
-[registurl]:http://sdkmerchant.zitiguanjia.com/site/signup
-[demojar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/v2.1/fontsdk-v2.1(jar+demo).zip
-[jar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/v2.1/fontsdk_2.1.jar
+[registurl]:http://www.zitiguanjia.com/signup
+[demojar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/fontsdk(jar+demo).zip
+[jar_download]:http://doc.zitiguanjia.com/public/file/sdkfile/fontsdk.jar
 [font_list]: /fontsdk/function/get_font_list.html
 [download_font]: /fontsdk/function/downloadfont.html
 [cloud_font]: /fontsdk/function/sd.html
@@ -19,9 +19,9 @@
 
 2. 下载SDK
 
-    [易字云SDK v2.1(Demo+jar)][demojar_download]
+    [易字云SDK (Demo+jar)][demojar_download]
 
-    [易字云SDK v2.1(jar)][jar_download]
+    [易字云SDK (jar)][jar_download]
 3. 配置manifest
 
     添加下列权限到项目Mainfest文件
@@ -39,18 +39,18 @@
     1. (必须)项目Application onCreate方法中初始化
 
     ```ruby
-    FontCenter.initFontCenter(application, app_key);
+    FontCenter.getInstance(Context context).initFontCenter(String app_key);
     ```
 
     2. (必须)在程序的入口activity中的
 
     ```php
     //onCreate方法中调用
-    FontCenter.getInstance().init();
+    FontCenter.getInstance(Context context).init();
     ```
 5. [获取字体列表][font_list]
 
-6. 功能集成
+6. 选择集成的功能
 
     1. [字体下载功能][download_font]
 
