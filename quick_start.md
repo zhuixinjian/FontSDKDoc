@@ -39,14 +39,14 @@
     1. (必须)项目Application onCreate方法中初始化
 
     ```ruby
-    FontCenter.getInstance(Context context).initFontCenter(String app_key);
+    FontCenter.initFontCenter(String appKey, Context applicationContext);
     ```
 
     2. (必须)在程序的入口activity中的
 
     ```php
     //onCreate方法中调用
-    FontCenter.getInstance(Context context).init();
+    FontCenter.getInstance().init();
     ```
 5. [获取字体列表][font_list]
 

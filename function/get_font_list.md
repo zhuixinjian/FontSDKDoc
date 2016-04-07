@@ -4,25 +4,25 @@
 1. 获取分类列表
     1. 分类中包含字体
 ```ruby
-    FontCenter.getInstance(Context context).getCateListByLanguage(IHttpCallBack callback, String country);
+    FontCenter.getInstance().getCateListByLanguage(IHttpCallBack callback, String country);
     ```
     2. 分类中不包含字体
     ```ruby
-    FontCenter.getInstance(Context context).getCateListFromServer(IHttpCallBack callback, String country);
+    FontCenter.getInstance().getCateListFromServer(IHttpCallBack callback, String country);
     ```
 2. 获取字体列表
 
     1. 获取单个分类中的字体
     ```ruby
-    FontCenter.getInstance(Context context).getCateFontListFromServer(IHttpCallBack callback,String id);
+    FontCenter.getInstance().getCateFontListFromServer(IHttpCallBack callback,String id);
     ```
     2. 获取国家下所有字体 [国家代码对应表][country_code]
     ```ruby
-    FontCenter.getInstance(Context context).getAllFontListByLanguage(IHttpCallBack callback, String country);
+    FontCenter.getInstance().getAllFontListByLanguage(IHttpCallBack callback, String country);
     ```
     3. 根据字体id获取Font对象
     ```ruby
-    FontCenter.getInstance(Context context).getFontById(String id);
+    FontCenter.getInstance().getFontById(String id);
     ```
 4. ~~获取字体列表（下面这些方法已经过时，我们不建议使用了）~~
 

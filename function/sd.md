@@ -2,32 +2,32 @@
 **注意：Font中fontSdkSupport属性为1是支持云字体**
 1. 手动获取云字体
     ```ruby
-    FontCenter.getInstance(Context context).getTypeface(Font font,String text,CloudFontCallBack callBack);
+    FontCenter.getInstance().getTypeface(Font font,String text,CloudFontCallBack callBack);
 	```
 2. 自动获取云字体
 
     1. 开始自动加载云字体
     ```ruby
-    FontCenter.getInstance(Context context).startAutoCloudText(Font font,TextView textView);
+    FontCenter.getInstance().startAutoCloudText(Font font,TextView textView);
 	```
 	2. 设置自动加载云字体的font
 	 ```ruby
-    FontCenter.getInstance(Context context).setAutoCloudFont(Font font)；
+    FontCenter.getInstance().setAutoCloudFont(Font font)；
     ```
     3. 设置自动加载云字体的textView
 	 ```ruby
-	FontCenter.getInstance(Context context).setAutoCloudTextView(TextView textView)；
+	FontCenter.getInstance().setAutoCloudTextView(TextView textView)；
 	```
 	4. 停止自动加载云字体
 	 ```ruby
-    FontCenter.getInstance(Context context).stopAutoCloudText();
+    FontCenter.getInstance().stopAutoCloudText();
 	```
 3. 获取云字体缓存大小
     ```ruby
-    FontCenter.getInstance(Context context).getCloudCacheSize();
+    FontCenter.getInstance().getCloudCacheSize();
     ```
 4. 清理云字体缓存
     ```ruby
-    FontCenter.getInstance(Context context).cleanCloudCache();
+    FontCenter.getInstance().cleanCloudCache();
     ```
 
